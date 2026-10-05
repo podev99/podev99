@@ -33,7 +33,7 @@ I bridge the gap between traditional software engineering and modern AI technolo
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical
 
 - **AI & LLM Integration:** Gemini API, OpenAI API, Prompt Engineering, RAG Architecture, Anti-Hallucination Guardrails
 - **Vector Search & DB:** ChromaDB, Embeddings, Semantic Search
