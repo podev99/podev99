@@ -1,36 +1,55 @@
-# Hi there, I'm POdev 👋
+# Hi, I'm Phong 👋
+### Applied AI Engineer & B2B Automation Specialist
 
-**AI Engineer | Backend Architect | Tool Builder**
+I bridge the gap between traditional software engineering and modern AI technology. I focus on architecting **production-grade AI automation pipelines**, **RAG systems**, and **LLM solutions** that solve concrete business challenges and drive operational efficiency.
 
-I specialize in **AI Engineering**, focusing specifically on the Application Layer. My work bridges the gap between raw Large Language Models (LLMs) and real-world, production-ready applications. I build robust backend architectures, developer tools (DevTools), and data processing pipelines that solve the most painful Developer Experience (DX) problems in the AI space.
+---
 
-### 🎯 Core Focus & Expertise
+## ⚡ Featured Case Studies & Proof of Work
 
-*   🧠 **Production RAG Systems:** Architecting scalable Retrieval-Augmented Generation pipelines and optimizing context windows.
-*   ⚡ **Data Preprocessing for AI:** Developing semantic document chunking strategies and managing vector embeddings.
-*   🛠️ **LLM Orchestration & Evaluation:** Building prompt benchmarking tools, LLM output validators (JSON constraints), and Agentic workflows.
-*   🚀 **High-Performance Backends:** Designing fast, asynchronous, and scalable APIs for AI integration.
+### 🟢 1. Autonomous AI Content Pipeline
+> **Status:** Live in Production 24/7  
+> **Tech Stack:** Python, Google Gemini API, Feedparser, Requests, Schedule, Render Cloud, Telegram Bot API
 
-### 🛠️ Tech Stack & Tools
+- **Problem:** Manual news monitoring, editing, and publishing required 2+ hours of repetitive daily labor.
+- **Solution:** Built an autonomous end-to-end pipeline that ingests RSS news feeds, processes content via Gemini LLM with custom prompt engineering, and automatically publishes structured posts to Telegram.
+- **Engineering Highlights:**
+  - Implemented persistent state management for **zero content duplication**.
+  - Rate-limit mitigation & robust exception handling for API reliability.
+  - Deployed as a continuous 24/7 Cloud Background Worker on Render with strict `.env` security.
+- 🔗 **[View Repository](https://github.com/podev99/ai-automation-pipeline)**
 
-**Languages & Frameworks**  
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+---
 
-**AI & Data Infrastructure**  
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF4F00?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/OpenAI%20%7C%20Groq%20%7C%20Gemini-412991?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
+### 🟡 2. Enterprise RAG Knowledge Base System
+> **Status:** Active Development
+> **Tech Stack:** Python, ChromaDB (Vector DB), Gemini API, LangChain / PyPDF
 
-**DevOps & Deployment**  
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- **Problem:** Enterprise knowledge silos and LLM hallucinations during internal document search.
+- **Solution:** A Retrieval-Augmented Generation (RAG) system enabling semantic search over internal PDF/text documents with strict source attribution.
+- **Engineering Highlights:**
+  - Document chunking and high-dimensional vector embeddings.
+  - Anti-hallucination guardrails enforcing responses strictly grounded in context.
 
-### 🌱 Currently Exploring
-*   **Agentic RAG & GraphRAG:** Moving beyond naive semantic search.
-*   **Local LLMs Inference:** Optimizing models for edge computing and privacy (vLLM, Ollama).
-*   **Multi-Agent Systems:** Coordinating specialized LLM agents for complex task resolution.
+---
 
-### 📫 Let's Connect
-*   **Email:** [potactics99@gmail.com](mailto:potactics99@gmail.com)
+## 🛠️ Technical Arsenal
+
+- **AI & LLM Integration:** Gemini API, OpenAI API, Prompt Engineering, RAG Architecture, Anti-Hallucination Guardrails
+- **Vector Search & DB:** ChromaDB, Embeddings, Semantic Search
+- **Backend & Automation:** Python, REST APIs, Web Scraping / RSS, Task Scheduling (`schedule`)
+- **DevOps & Infrastructure:** Docker, Render, Git/GitHub, Environment Management (`.env`)
+
+---
+
+## 🎯 Engineering Mindset
+
+1. **Proof of Work:** Local code is just a draft; a system only counts when running reliably in production.
+2. **Business First:** AI is a tool to cut costs and automate bottlenecks, not just a hype word.
+3. **Clean Architecture:** Strict separation of concerns, zero-trust API security, and modular design.
+
+---
+
+## 📫 Connect with Me
+
+- 📧 **Email:** [potactics99@gmail.com]
